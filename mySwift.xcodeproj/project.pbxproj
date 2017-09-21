@@ -15,13 +15,16 @@
 		110621761F6FB6000015A4B3 /* mySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110621751F6FB6000015A4B3 /* mySwiftUITests.swift */; };
 		115715891F73AEBA00F0D099 /* WeiTouTiaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715801F73AEBA00F0D099 /* WeiTouTiaoViewController.swift */; };
 		1157158A1F73AEBA00F0D099 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715821F73AEBA00F0D099 /* Const.swift */; };
-		1157158B1F73AEBA00F0D099 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715841F73AEBA00F0D099 /* HomeViewController.swift */; };
 		1157158C1F73AEBA00F0D099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715861F73AEBA00F0D099 /* AppDelegate.swift */; };
 		1157158D1F73AEBA00F0D099 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715871F73AEBA00F0D099 /* MyNavigationController.swift */; };
 		1157158E1F73AEBA00F0D099 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715881F73AEBA00F0D099 /* MyTabBarController.swift */; };
 		115715951F73AEC300F0D099 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715901F73AEC300F0D099 /* VideoViewController.swift */; };
 		115715961F73AEC300F0D099 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715921F73AEC300F0D099 /* MineViewController.swift */; };
 		115715971F73AEC300F0D099 /* AdvertiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715941F73AEC300F0D099 /* AdvertiseViewController.swift */; };
+		1157159A1F73B27B00F0D099 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715991F73B27B00F0D099 /* UIColor+Extension.swift */; };
+		1157159F1F73B89800F0D099 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1157159D1F73B89800F0D099 /* HomeViewController.swift */; };
+		115715A31F73B98F00F0D099 /* HomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715A21F73B98F00F0D099 /* HomeNavigationBar.swift */; };
+		115715A51F73C24400F0D099 /* HomeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715A41F73C24400F0D099 /* HomeSearchBar.swift */; };
 		6D9596D6D5DE01F767FA5E17 /* Pods_mySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B03625955E17273063927E9 /* Pods_mySwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,13 +60,16 @@
 		110621771F6FB6000015A4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		115715801F73AEBA00F0D099 /* WeiTouTiaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeiTouTiaoViewController.swift; sourceTree = "<group>"; };
 		115715821F73AEBA00F0D099 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
-		115715841F73AEBA00F0D099 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		115715861F73AEBA00F0D099 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		115715871F73AEBA00F0D099 /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
 		115715881F73AEBA00F0D099 /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		115715901F73AEC300F0D099 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		115715921F73AEC300F0D099 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		115715941F73AEC300F0D099 /* AdvertiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertiseViewController.swift; sourceTree = "<group>"; };
+		115715991F73B27B00F0D099 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		1157159D1F73B89800F0D099 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		115715A21F73B98F00F0D099 /* HomeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationBar.swift; sourceTree = "<group>"; };
+		115715A41F73C24400F0D099 /* HomeSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSearchBar.swift; sourceTree = "<group>"; };
 		3B03625955E17273063927E9 /* Pods_mySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1EE46F02D8E38E67B1F114 /* Pods-mySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mySwift/Pods-mySwift.debug.xcconfig"; sourceTree = "<group>"; };
 		D8CA00A8C42E5F251656E103 /* Pods-mySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-mySwift/Pods-mySwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +133,7 @@
 				115715911F73AEC300F0D099 /* MineVC */,
 				115715931F73AEC300F0D099 /* AdvertiseVC */,
 				115715811F73AEBA00F0D099 /* Const */,
+				115715981F73B1A100F0D099 /* Category */,
 				110621571F6FB6000015A4B3 /* ViewController.swift */,
 				110621591F6FB6000015A4B3 /* Main.storyboard */,
 				1106215C1F6FB6000015A4B3 /* Assets.xcassets */,
@@ -173,7 +180,9 @@
 		115715831F73AEBA00F0D099 /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
-				115715841F73AEBA00F0D099 /* HomeViewController.swift */,
+				1157159C1F73B89800F0D099 /* vc */,
+				1157159B1F73B89800F0D099 /* model */,
+				1157159E1F73B89800F0D099 /* view */,
 			);
 			path = HomeVC;
 			sourceTree = "<group>";
@@ -210,6 +219,39 @@
 				115715941F73AEC300F0D099 /* AdvertiseViewController.swift */,
 			);
 			path = AdvertiseVC;
+			sourceTree = "<group>";
+		};
+		115715981F73B1A100F0D099 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				115715991F73B27B00F0D099 /* UIColor+Extension.swift */,
+			);
+			name = Category;
+			path = Const/Category;
+			sourceTree = "<group>";
+		};
+		1157159B1F73B89800F0D099 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1157159C1F73B89800F0D099 /* vc */ = {
+			isa = PBXGroup;
+			children = (
+				1157159D1F73B89800F0D099 /* HomeViewController.swift */,
+			);
+			path = vc;
+			sourceTree = "<group>";
+		};
+		1157159E1F73B89800F0D099 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				115715A21F73B98F00F0D099 /* HomeNavigationBar.swift */,
+				115715A41F73C24400F0D099 /* HomeSearchBar.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		4906CB4683C4B8AEC4BA0F85 /* Pods */ = {
@@ -417,14 +459,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115715A31F73B98F00F0D099 /* HomeNavigationBar.swift in Sources */,
 				115715891F73AEBA00F0D099 /* WeiTouTiaoViewController.swift in Sources */,
 				110621581F6FB6000015A4B3 /* ViewController.swift in Sources */,
 				115715961F73AEC300F0D099 /* MineViewController.swift in Sources */,
+				1157159A1F73B27B00F0D099 /* UIColor+Extension.swift in Sources */,
 				115715951F73AEC300F0D099 /* VideoViewController.swift in Sources */,
 				1157158A1F73AEBA00F0D099 /* Const.swift in Sources */,
+				115715A51F73C24400F0D099 /* HomeSearchBar.swift in Sources */,
 				1157158D1F73AEBA00F0D099 /* MyNavigationController.swift in Sources */,
+				1157159F1F73B89800F0D099 /* HomeViewController.swift in Sources */,
 				1157158C1F73AEBA00F0D099 /* AppDelegate.swift in Sources */,
-				1157158B1F73AEBA00F0D099 /* HomeViewController.swift in Sources */,
 				115715971F73AEC300F0D099 /* AdvertiseViewController.swift in Sources */,
 				1157158E1F73AEBA00F0D099 /* MyTabBarController.swift in Sources */,
 			);
