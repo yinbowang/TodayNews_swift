@@ -11,6 +11,7 @@ import SnapKit
 
 class HomeNavigationBar: UIView {
 
+    
     override init(frame: CGRect) {
        super.init(frame: frame)
         //这样设置，宽度不会到KScreenWidth，会有间隙http://blog.csdn.net/kid_devil/article/details/23225019
@@ -54,6 +55,8 @@ class HomeNavigationBar: UIView {
             super.frame = newFrame
         }
     }
+
+    
     
     
 

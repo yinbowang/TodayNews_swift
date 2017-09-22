@@ -25,6 +25,10 @@
 		1157159F1F73B89800F0D099 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1157159D1F73B89800F0D099 /* HomeViewController.swift */; };
 		115715A31F73B98F00F0D099 /* HomeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715A21F73B98F00F0D099 /* HomeNavigationBar.swift */; };
 		115715A51F73C24400F0D099 /* HomeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115715A41F73C24400F0D099 /* HomeSearchBar.swift */; };
+		115EBE7A1F74A1B300A190B5 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115EBE791F74A1B300A190B5 /* HomePageView.swift */; };
+		115EBE7F1F74AB3300A190B5 /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115EBE7E1F74AB3300A190B5 /* NetworkTool.swift */; };
+		115EBE811F74ADF800A190B5 /* TopicTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115EBE801F74ADF800A190B5 /* TopicTitle.swift */; };
+		115EBE831F74AE7400A190B5 /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115EBE821F74AE7400A190B5 /* TopicViewController.swift */; };
 		6D9596D6D5DE01F767FA5E17 /* Pods_mySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B03625955E17273063927E9 /* Pods_mySwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +74,10 @@
 		1157159D1F73B89800F0D099 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		115715A21F73B98F00F0D099 /* HomeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeNavigationBar.swift; sourceTree = "<group>"; };
 		115715A41F73C24400F0D099 /* HomeSearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSearchBar.swift; sourceTree = "<group>"; };
+		115EBE791F74A1B300A190B5 /* HomePageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		115EBE7E1F74AB3300A190B5 /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		115EBE801F74ADF800A190B5 /* TopicTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicTitle.swift; sourceTree = "<group>"; };
+		115EBE821F74AE7400A190B5 /* TopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
 		3B03625955E17273063927E9 /* Pods_mySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1EE46F02D8E38E67B1F114 /* Pods-mySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mySwift/Pods-mySwift.debug.xcconfig"; sourceTree = "<group>"; };
 		D8CA00A8C42E5F251656E103 /* Pods-mySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-mySwift/Pods-mySwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +134,7 @@
 		110621541F6FB6000015A4B3 /* mySwift */ = {
 			isa = PBXGroup;
 			children = (
+				115EBE7B1F74AA0C00A190B5 /* Toos */,
 				115715851F73AEBA00F0D099 /* MainTabbarVC */,
 				115715831F73AEBA00F0D099 /* HomeVC */,
 				1157158F1F73AEC300F0D099 /* VideoVC */,
@@ -233,6 +242,7 @@
 		1157159B1F73B89800F0D099 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				115EBE801F74ADF800A190B5 /* TopicTitle.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -241,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				1157159D1F73B89800F0D099 /* HomeViewController.swift */,
+				115EBE821F74AE7400A190B5 /* TopicViewController.swift */,
 			);
 			path = vc;
 			sourceTree = "<group>";
@@ -250,8 +261,17 @@
 			children = (
 				115715A21F73B98F00F0D099 /* HomeNavigationBar.swift */,
 				115715A41F73C24400F0D099 /* HomeSearchBar.swift */,
+				115EBE791F74A1B300A190B5 /* HomePageView.swift */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		115EBE7B1F74AA0C00A190B5 /* Toos */ = {
+			isa = PBXGroup;
+			children = (
+				115EBE7E1F74AB3300A190B5 /* NetworkTool.swift */,
+			);
+			path = Toos;
 			sourceTree = "<group>";
 		};
 		4906CB4683C4B8AEC4BA0F85 /* Pods */ = {
@@ -463,6 +483,7 @@
 				115715891F73AEBA00F0D099 /* WeiTouTiaoViewController.swift in Sources */,
 				110621581F6FB6000015A4B3 /* ViewController.swift in Sources */,
 				115715961F73AEC300F0D099 /* MineViewController.swift in Sources */,
+				115EBE7F1F74AB3300A190B5 /* NetworkTool.swift in Sources */,
 				1157159A1F73B27B00F0D099 /* UIColor+Extension.swift in Sources */,
 				115715951F73AEC300F0D099 /* VideoViewController.swift in Sources */,
 				1157158A1F73AEBA00F0D099 /* Const.swift in Sources */,
@@ -470,7 +491,10 @@
 				1157158D1F73AEBA00F0D099 /* MyNavigationController.swift in Sources */,
 				1157159F1F73B89800F0D099 /* HomeViewController.swift in Sources */,
 				1157158C1F73AEBA00F0D099 /* AppDelegate.swift in Sources */,
+				115EBE811F74ADF800A190B5 /* TopicTitle.swift in Sources */,
+				115EBE831F74AE7400A190B5 /* TopicViewController.swift in Sources */,
 				115715971F73AEC300F0D099 /* AdvertiseViewController.swift in Sources */,
+				115EBE7A1F74A1B300A190B5 /* HomePageView.swift in Sources */,
 				1157158E1F73AEBA00F0D099 /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
